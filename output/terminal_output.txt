@@ -1,0 +1,39 @@
+schema:
+root
+ |-- review: string (nullable = true)
+ |-- sentiment: string (nullable = true)
+
+first 5 rows:
++----------------------------------------------------------------------------------------------------+---------+
+|                                                                                              review|sentiment|
++----------------------------------------------------------------------------------------------------+---------+
+|One of the other reviewers has mentioned that after watching just 1 Oz episode you'll be hooked. ...| positive|
+|A wonderful little production. <br /><br />The filming technique is very unassuming- very old-tim...| positive|
+|I thought this was a wonderful way to spend time on a too hot summer weekend, sitting in the air ...| positive|
+|Basically there's a family where a little boy (Jake) thinks there's a zombie in his closet & his ...| negative|
+|Petter Mattei's "Love in the Time of Money" is a visually stunning film to watch. Mr. Mattei offe...| positive|
++----------------------------------------------------------------------------------------------------+---------+
+only showing top 5 rows
+
+total reviews: 50000
+reviews by sentiment:
++---------+-----+
+|sentiment|count|
++---------+-----+
+| positive|25000|
+| negative|25000|
++---------+-----+
+
+reviews longer than 500 characters:
++----------------------------------------------------------------------------------------------------+---------+-------------+
+|                                                                                              review|sentiment|review_length|
++----------------------------------------------------------------------------------------------------+---------+-------------+
+|One of the other reviewers has mentioned that after watching just 1 Oz episode you'll be hooked. ...| positive|         1761|
+|A wonderful little production. <br /><br />The filming technique is very unassuming- very old-tim...| positive|          998|
+|I thought this was a wonderful way to spend time on a too hot summer weekend, sitting in the air ...| positive|          926|
+|Basically there's a family where a little boy (Jake) thinks there's a zombie in his closet & his ...| negative|          748|
+|Petter Mattei's "Love in the Time of Money" is a visually stunning film to watch. Mr. Mattei offe...| positive|         1317|
++----------------------------------------------------------------------------------------------------+---------+-------------+
+only showing top 5 rows
+
+saved cleaned reviews to output/cleaned_reviews   
