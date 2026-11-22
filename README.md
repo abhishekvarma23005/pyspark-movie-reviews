@@ -1,7 +1,5 @@
 # pyspark-movie-reviews
-<<<<<<< HEAD
-Assignment 1.2 for Data and Storytelling Course
-=======
+
 Assignment 1.3 for Data and Storytelling Course
 
 ## About this project
