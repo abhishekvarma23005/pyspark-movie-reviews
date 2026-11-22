@@ -13,5 +13,8 @@ These following steps are performed:
 - Display only those rows with review length greater than 500 characters.
 - Save the transformed DataFrame as a new CSV file.
 
+## Resources used
+Movie Review Dataset: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
 ## AI Disclosure
 AI was used to help understand usage of the PySpark Library.
